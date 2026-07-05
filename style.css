@@ -5,13 +5,14 @@
 /* --- CSS Variables & Theme Configuration --- */
 :root {
   /* Light Mode Palette */
-  --color-primary: #10b981; /* Emerald Green */
-  --color-secondary: #111827; /* Black for buttons/accents */
-  --color-bg: #ffffff; /* White */
-  --color-surface: #f3f4f6; /* Ash (Light Gray) */
-  --color-text: #000000; /* Black */
-  --color-text-muted: #6b7280; /* Ash Gray */
-  --color-border: #e5e7eb;
+  --color-primary: #6366F1; /* Premium Indigo */
+  --color-secondary: #F43F5E; /* Vibrant Rose */
+  --color-bg: #F8FAFC; /* Crisp Slate Background */
+  --bg-gradient: linear-gradient(135deg, #FFFFFF 0%, #F1F5F9 100%);
+  --color-surface: #FFFFFF; /* Pure White Cards */
+  --color-text: #0F172A; /* Rich Slate text */
+  --color-text-muted: #64748B; /* Cool Gray */
+  --color-border: #E2E8F0;
   
   /* Shared values */
   --font-title: 'Fruktur', system-ui, -apple-system, sans-serif;
@@ -28,6 +29,7 @@
   --color-primary: #8b5cf6; /* Violet */
   --color-secondary: #8b5cf6; /* Violet for buttons/accents */
   --color-bg: #000000; /* Deep Black */
+  --bg-gradient: none;
   --color-surface: #111827; /* Dark Ash */
   --color-text: #f3f4f6; /* Light Ash/White */
   --color-text-muted: #9ca3af; /* Ash Gray */
@@ -48,6 +50,8 @@ html {
 body {
   font-family: var(--font-content);
   background-color: var(--color-bg);
+  background-image: var(--bg-gradient);
+  background-attachment: fixed;
   color: var(--color-text);
   line-height: 1.6;
   transition: background-color var(--transition-speed), color var(--transition-speed);
