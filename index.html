@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookVerse | Home</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Book<span>Verse</span></a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Discover Your Next Great Adventure</h1>
+                <p>Welcome to BookVerse, your premier destination for finding the best books across all genres. Join our community of book lovers today.</p>
+                <div class="hero-buttons">
+                    <a href="books.html" class="btn btn-primary">Shop Now</a>
+                    <a href="about.html" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-slider">
+                <div class="slider-images">
+                    <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Books Collection 1">
+                    <img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Books Collection 2">
+                    <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Books Collection 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Top Categories</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <i class="fas fa-dragon"></i>
+                    <h3>Fiction</h3>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Non-Fiction</h3>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-atom"></i>
+                    <h3>Science</h3>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Technology</h3>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-landmark"></i>
+                    <h3>History</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Books Section -->
+    <section class="featured-books">
+        <div class="container">
+            <h2 class="section-title">Featured Books</h2>
+            <div class="books-grid">
+                <!-- Book Card 1 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Book Cover 1">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-title">The Art of Innovation</h3>
+                        <p class="book-author">By Jane Doe</p>
+                        <div class="book-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="book-footer">
+                            <span class="book-price">₹499</span>
+                            <a href="books.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Book Card 2 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Book Cover 2">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-title">Silent Galaxy</h3>
+                        <p class="book-author">By John Smith</p>
+                        <div class="book-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                        </div>
+                        <div class="book-footer">
+                            <span class="book-price">₹349</span>
+                            <a href="books.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Book Card 3 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Book Cover 3">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-title">History Unveiled</h3>
+                        <p class="book-author">By Emily Clark</p>
+                        <div class="book-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <div class="book-footer">
+                            <span class="book-price">₹699</span>
+                            <a href="books.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Book Card 4 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Book Cover 4">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-title">Tech Horizons</h3>
+                        <p class="book-author">By Alan Turing</p>
+                        <div class="book-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+                        </div>
+                        <div class="book-footer">
+                            <span class="book-price">₹599</span>
+                            <a href="books.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p style="text-align: center; margin-top: 40px; font-size: 1.1rem; color: var(--color-text-muted); font-style: italic;">Adding more books shortly...</p>
+        </div>
+    </section>
+
+    <!-- Animated Counters Section -->
+    <section class="stats">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <h3 class="counter" data-target="24">0</h3>
+                <p>Total Books</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="counter" data-target="12">0</h3>
+                <p>Authors</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="counter" data-target="150">0</h3>
+                <p>Happy Customers</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title">What Our Readers Say</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <p class="review-text">"BookVerse has an amazing collection! I found rare history books I've been searching for everywhere. Highly recommended!"</p>
+                    <div class="review-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Reviewer 1">
+                        <div>
+                            <h4>Sarah Jenkins</h4>
+                            <div class="book-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <p class="review-text">"The website is so easy to navigate, and the dark mode feature is a lifesaver for night reading sessions."</p>
+                    <div class="review-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Reviewer 2">
+                        <div>
+                            <h4>Michael Chen</h4>
+                            <div class="book-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 class="footer-title">BookVerse</h3>
+                    <p>Your one-stop destination for discovering, buying, and sharing books online. Expanding minds one page at a time.</p>
+                </div>
+                <div>
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="books.html">Books</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 BookVerse. All rights reserved. Web Development Internship Project.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Book Details Modal -->
+    <div id="book-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button id="modal-close" class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-image">
+                <img id="modal-img" src="" alt="Book Cover">
+            </div>
+            <div class="modal-body">
+                <h3 id="modal-title">Book Title</h3>
+                <p id="modal-author" class="author">By Author</p>
+                <p id="modal-desc" class="desc">Book description goes here...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
