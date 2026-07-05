@@ -161,6 +161,13 @@ img {
   font-style: italic;
 }
 
+.playpen-sans {
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .logo span {
   color: var(--color-secondary);
 }
