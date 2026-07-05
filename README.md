@@ -8,20 +8,21 @@ Welcome to **BookVerse**, a highly interactive, modern, and fully responsive Boo
 
 ## ✨ Key Features
 
-- **🌓 Dark & Light Mode Themes:** Beautifully crafted color palettes (Emerald Green/Ash for light, Violet/Black for dark) that automatically save and persist your preference using `localStorage`.
+- **🌓 Dark & Light Mode Themes:** Beautifully crafted color palettes (Premium Indigo/Rose for light, Violet/Black for dark) that automatically save and persist your preference using `localStorage`.
+- **✍️ Custom Typography:** Elegant **Fruktur** font for all titles and logos, paired with the playful and friendly **Playpen Sans** for all body content and names.
 - **📱 Fully Responsive:** Fluid layouts utilizing CSS Grid & Flexbox, complete with a custom JavaScript-powered hamburger menu for mobile and tablet devices.
 - **🔍 Dynamic Book Search:** Real-time search filtering on the Books page allowing users to instantly find books by title or author.
 - **💬 Interactive Modals:** Dynamic JavaScript pop-ups ("View Details") for reading full book descriptions without navigating away from the page.
 - **📈 Animated Counters:** Smooth counting statistics on the home page powered by `IntersectionObserver`, triggering precisely when scrolled into view.
 - **✉️ Form Validation:** Client-side validation on the Contact Us page ensuring proper email formats and preventing empty submissions.
-- **✨ Premium Aesthetics:** Hover animations, smooth transitions, and high-quality UI/UX inspired by modern web standards.
+- **✨ Premium Aesthetics:** Hover animations, soft modern shadows, smooth background gradients, and high-quality UI/UX inspired by top-tier modern design trends.
 
 ---
 
 ## 🛠️ Technology Stack
 
 - **HTML5:** Semantic structure and accessible, SEO-friendly markup.
-- **CSS3:** Custom CSS variables, Flexbox, CSS Grid, media queries, and smooth animations.
+- **CSS3:** Custom CSS variables, Flexbox, CSS Grid, media queries, and smooth animations. Google Fonts integration.
 - **JavaScript (ES6+):** Vanilla JS for DOM manipulation, event listeners, localStorage management, and intersection observers.
 
 ---
@@ -34,7 +35,7 @@ ReadNest_Book_Store/
 ├── books.html        # Books Listing Page (Search filter, Grid layout, Modals)
 ├── about.html        # About Us Page (Company story, Mission, Team emojis)
 ├── contact.html      # Contact Page (Form with JS validation, Address details)
-├── style.css         # Global Stylesheet (Variables, themes, responsive layout)
+├── style.css         # Global Stylesheet (Variables, themes, typography, responsive layout)
 ├── script.js         # Core JavaScript Logic (Modals, search, theme toggling)
 └── README.md         # Project Documentation
 ```
@@ -54,8 +55,8 @@ Since this project relies on vanilla web technologies, there are no dependencies
 
 ## 🎨 Theme Overview
 
-- **Light Mode:** Features an **Emerald Green** primary accent with crisp White and Ash Gray backgrounds, paired with Deep Black text and secondary buttons.
+- **Light Mode (Premium UI):** Features a sleek **Indigo** primary accent with **Vibrant Rose** secondary elements. Built on a crisp Slate-to-White gradient background with Pure White floating cards and High-Contrast Slate typography.
 - **Dark Mode:** Features a deep, eye-friendly **Black and Dark Ash** background, while switching the primary accent to a striking **Violet**, accompanied by crisp White text.
 
 ---
-*Created with ❤️ for a Web Development Internship Task.*
+*Created with ❤️ in 2026 for a Web Development Internship Task.*
