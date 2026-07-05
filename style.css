@@ -14,7 +14,8 @@
   --color-border: #e5e7eb;
   
   /* Shared values */
-  --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-title: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-content: sans-serif;
   --transition-speed: 0.3s;
   --border-radius: 8px;
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
@@ -45,11 +46,15 @@ html {
 }
 
 body {
-  font-family: var(--font-main);
+  font-family: var(--font-content);
   background-color: var(--color-bg);
   color: var(--color-text);
   line-height: 1.6;
   transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+h1, h2, h3, h4, h5, h6, .logo {
+  font-family: var(--font-title);
 }
 
 a {
@@ -131,8 +136,9 @@ img {
 }
 
 .logo {
+  font-family: "Fruktur", system-ui;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--color-primary);
 }
 
