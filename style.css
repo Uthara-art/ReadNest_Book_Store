@@ -15,7 +15,7 @@
   
   /* Shared values */
   --font-title: 'Fruktur', system-ui, -apple-system, sans-serif;
-  --font-content: sans-serif;
+  --font-content: "Playpen Sans", cursive;
   --transition-speed: 0.3s;
   --border-radius: 8px;
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
@@ -119,8 +119,6 @@ img {
 }
 
 .review-header h4 {
-  font-family: "Fruktur", system-ui;
-  font-weight: 400;
   margin-bottom: 5px;
   color: var(--color-primary);
 }
@@ -328,8 +326,6 @@ img {
 }
 
 .book-author {
-  font-family: "Fruktur", system-ui;
-  font-weight: 400;
   color: var(--color-text-muted);
   font-size: 1.1rem;
   margin-bottom: 10px;
@@ -563,11 +559,7 @@ img {
   margin: 0 auto 15px;
 }
 
-.team-member h4 {
-  font-family: "Fruktur", system-ui !important;
-  font-weight: 400 !important;
-  font-style: normal !important;
-}
+/* Removed Fruktur override for team member names */
 
 /* --- Footer --- */
 .footer {
