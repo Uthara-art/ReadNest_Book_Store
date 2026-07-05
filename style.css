@@ -314,8 +314,9 @@ img {
 }
 
 .book-author {
+  font-family: var(--font-title);
   color: var(--color-text-muted);
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   margin-bottom: 10px;
 }
 
