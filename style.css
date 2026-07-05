@@ -118,6 +118,13 @@ img {
   color: var(--color-primary);
 }
 
+.review-header h4 {
+  font-family: "Fruktur", system-ui;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: var(--color-primary);
+}
+
 /* --- Navigation Bar --- */
 .navbar {
   position: sticky;
@@ -314,7 +321,8 @@ img {
 }
 
 .book-author {
-  font-family: var(--font-title);
+  font-family: "Fruktur", system-ui;
+  font-weight: 400;
   color: var(--color-text-muted);
   font-size: 1.1rem;
   margin-bottom: 10px;
@@ -546,6 +554,12 @@ img {
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto 15px;
+}
+
+.team-member h4 {
+  font-family: "Fruktur", system-ui !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
 }
 
 /* --- Footer --- */
